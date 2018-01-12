@@ -1,5 +1,6 @@
 var recipes = {cookies: 'heyo'}
 
 function updateObjectWithKeyAndValue(object, key, value){
-  recipe[key]=value
+  object[key]=value
+  return object
 }
